@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3dd02ca7.css",
+    "main.js": "/static/js/main.b1ff4800.js",
+    "static/js/453.62b83083.chunk.js": "/static/js/453.62b83083.chunk.js",
+    "static/media/wedding.jpeg": "/static/media/wedding.f538c9077e2fd794d6b8.jpeg",
+    "static/media/Indian_wedding_planner_vs_Indian_wedding_stylist.webp": "/static/media/Indian_wedding_planner_vs_Indian_wedding_stylist.cc87785f3c455a797e8a.webp",
+    "static/media/haldi.webp": "/static/media/haldi.0f4c0291cf33ff0c14e8.webp",
+    "static/media/Sonam-Kapoor-wedding-pictures-Vogue-India-Bollywood-brides-3.webp": "/static/media/Sonam-Kapoor-wedding-pictures-Vogue-India-Bollywood-brides-3.bc330e1da571dc0e1e8b.webp",
+    "static/media/Celebrity_Wishes_Pour_In_For_Katrina_Kaif_And_Vicky_Kaushal_Wedding.jpg": "/static/media/Celebrity_Wishes_Pour_In_For_Katrina_Kaif_And_Vicky_Kaushal_Wedding.b56724ec746e4181bbdc.jpg",
+    "static/media/reception.h": "/static/media/reception.0b5d3ee03449fb9a2064.h",
+    "static/media/engagement.jpg": "/static/media/engagement.4992373bb51f5af14ee9.jpg",
+    "index.html": "/index.html",
+    "main.3dd02ca7.css.map": "/static/css/main.3dd02ca7.css.map",
+    "main.b1ff4800.js.map": "/static/js/main.b1ff4800.js.map",
+    "453.62b83083.chunk.js.map": "/static/js/453.62b83083.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dd02ca7.css",
+    "static/js/main.b1ff4800.js"
+  ]
+}
