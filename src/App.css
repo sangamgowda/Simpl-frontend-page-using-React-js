@@ -1,0 +1,268 @@
+*{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+
+
+
+/* Container that holds both the sidebar and main content */
+.container {
+  display: flex;
+  height: 0vh; /* Full viewport height */
+
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 50%; /* Fixed width */
+  background-color: #24d7e4;
+  padding: 20px;
+  position: fixed; /* Makes the sidebar fixed */
+  top: 0;
+  bottom: 0;
+  overflow-y: auto; /* Scrollable if content overflows */
+  background: url('C:\Users\sangam\Desktop\Frontend web intern\assignment 1\Celebrity_Wishes_Pour_In_For_Katrina_Kaif_And_Vicky_Kaushal_Wedding.jpg') no-repeat center center/cover;
+
+
+}
+
+/* Main content styles */
+.main-content {
+  margin-left: 50%; /* Pushes the main content to the right of the sidebar */
+  padding: 50px;
+  width: calc(100% - 500px); /* Adjust width based on sidebar width */
+  overflow-y: auto; /* Enable scrolling */
+}
+
+.theme{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(30, 14, 4);
+  padding-top: 480px;
+}
+
+.theme a{
+  background-color: transparent;
+  color: rgb(30, 14, 4);
+  font-family: 'Times New Roman', Times, serif;
+  display: block;
+  padding: 15px 20px;
+  text-align:center;
+  margin: 20px 290px;
+  font-size: 30px;
+  border: 2px solid;
+  border-color: rgb(30, 14, 4);
+  cursor: pointer;
+  text-decoration: none;
+}
+.cost{
+  color: white;
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 20px;
+
+}
+
+.main{
+  position: relative;
+  overflow: hidden;
+  margin-left: 50%; /* Pushes the main content to the right of the sidebar */
+  overflow-y: auto; /* Scrollable if content overflows */
+}
+
+
+.body{
+  background-color: bisque;
+  
+  
+}
+
+.container1{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.card{
+  width: 320px;
+  height: 450px;
+  margin: 20px;
+  
+}
+.card-image{
+  background-color: aqua;
+  height: 450px;
+  margin-bottom: 15px; 
+  border-radius: 15px 15px 15px 15px;
+  
+}
+.card-image h2{
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(30, 14, 4);
+  padding-top: 150px;
+
+}
+
+.card-1{
+  background:url('C:\Users\sangam\Desktop\Frontend web intern\assignment 1\Indian_wedding_planner_vs_Indian_wedding_stylist.webp');
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover ;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0.8; 
+}
+
+.card-2{
+  background: url('C:\Users\sangam\Desktop\Frontend web intern\assignment 1\Sonam-Kapoor-wedding-pictures-Vogue-India-Bollywood-brides-3.webp');
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover ;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0.8; 
+  
+}
+.card-3{
+  background: url('C:\Users\sangam\Desktop\Frontend web intern\assignment 1\engagement.jpg');
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover ;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0.8; 
+  
+}
+.card-4{
+  background: url('C:\Users\sangam\Desktop\Frontend web intern\assignment 1\haldi.webp');
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover ;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0.8; 
+  
+}
+.card-5{
+  background: url('C:\Users\sangam\Desktop\Frontend web intern\assignment 1\wedding.jpeg');
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover ;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0.8; 
+  
+}
+.card-6{
+  background: url('C:\Users\sangam\Desktop\Frontend web intern\assignment 1\reception.h');
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover ;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0.8; 
+  
+}
+
+.card a{
+  background-color: transparent;
+  color: rgb(30, 14, 4);
+  font-family: 'Times New Roman', Times, serif;
+  display: block;
+  padding: 15px 10px;
+  text-align: center;
+  margin: 20px 100px;
+  font-size: 40px;
+  border: 2px solid;
+  border-color: rgb(30, 14, 4);
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+.card-1:hover{
+  background-color: dimgrey;
+  color: white;
+  transform: scale(1.03);
+  transition: all ls ease;
+}
+.card-2:hover{
+  background-color: dimgrey;
+  color: white;
+  transform: scale(1.03);
+  transition: all ls ease;
+}
+
+.card-3:hover{
+  background-color: dimgrey;
+  color: white;
+  transform: scale(1.03);
+  transition: all ls ease;
+}
+
+.card-4:hover{
+  background-color: dimgrey;
+  color: white;
+  transform: scale(1.03);
+  transition: all ls ease;
+}
+
+.card-5:hover{
+  background-color: dimgrey;
+  color: white;
+  transform: scale(1.03);
+  transition: all ls ease;
+}
+
+.card-6:hover{
+  background-color: dimgrey;
+  color: white;
+  transform: scale(1.03);
+  transition: all ls ease;
+}
+
+.scroll,.page1,.page2,.page3{
+  font-size: 60px;
+  margin: auto ;
+}
+
+.scroll{
+  overflow: auto;
+  margin-left:50%;
+  
+
+}
+.page1,.page2,.page3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  width: 760px;
+  position: relative;
+
+}
+.page1{
+  background-color: rgb(244, 232, 240);
+}
+.page2{
+  background-color: rgb(244, 232, 240);
+}
+.page3{
+  background-color: rgb(244, 232, 240);
+}
+.page4{
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  width: 760px;
+  position: relative;
+  background-color: rgb(244, 232, 240);
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color:rgb(30, 14, 4) ;
+  padding-top: 50px;
+}
