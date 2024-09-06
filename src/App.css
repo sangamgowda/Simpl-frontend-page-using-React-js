@@ -17,15 +17,12 @@
 /* Sidebar styles */
 .sidebar {
   width: 50%; /* Fixed width */
-  background-color: #24d7e4;
   padding: 20px;
   position: fixed; /* Makes the sidebar fixed */
   top: 0;
   bottom: 0;
   overflow-y: auto; /* Scrollable if content overflows */
-  background: url('C:\Users\sangam\Desktop\Frontend web intern\assignment 1\Celebrity_Wishes_Pour_In_For_Katrina_Kaif_And_Vicky_Kaushal_Wedding.jpg') no-repeat center center/cover;
-
-
+  background: url('./Component/Celebrity_Wishes_Pour_In_For_Katrina_Kaif_And_Vicky_Kaushal_Wedding.jpg') no-repeat center center/cover;
 }
 
 /* Main content styles */
@@ -113,7 +110,7 @@
 }
 
 .card-1{
-  background:url('C:\Users\sangam\Desktop\Frontend web intern\assignment 1\Indian_wedding_planner_vs_Indian_wedding_stylist.webp');
+  background:url('./Component/Indian_wedding_planner_vs_Indian_wedding_stylist.webp');
   background-repeat: no-repeat; 
   background-position: center;
   background-size: cover ;
@@ -122,7 +119,7 @@
 }
 
 .card-2{
-  background: url('C:\Users\sangam\Desktop\Frontend web intern\assignment 1\Sonam-Kapoor-wedding-pictures-Vogue-India-Bollywood-brides-3.webp');
+  background: url('./Component/Sonam-Kapoor-wedding-pictures-Vogue-India-Bollywood-brides-3.webp');
   background-repeat: no-repeat; 
   background-position: center;
   background-size: cover ;
@@ -131,7 +128,7 @@
   
 }
 .card-3{
-  background: url('C:\Users\sangam\Desktop\Frontend web intern\assignment 1\engagement.jpg');
+  background: url('./Component/engagement.jpg');
   background-repeat: no-repeat; 
   background-position: center;
   background-size: cover ;
@@ -140,7 +137,7 @@
   
 }
 .card-4{
-  background: url('C:\Users\sangam\Desktop\Frontend web intern\assignment 1\haldi.webp');
+  background: url('./Component/haldi.webp');
   background-repeat: no-repeat; 
   background-position: center;
   background-size: cover ;
@@ -149,7 +146,7 @@
   
 }
 .card-5{
-  background: url('C:\Users\sangam\Desktop\Frontend web intern\assignment 1\wedding.jpeg');
+  background: url('./Component/wedding.jpeg');
   background-repeat: no-repeat; 
   background-position: center;
   background-size: cover ;
@@ -158,7 +155,7 @@
   
 }
 .card-6{
-  background: url('C:\Users\sangam\Desktop\Frontend web intern\assignment 1\reception.h');
+  background: url('./Component/reception.h');
   background-repeat: no-repeat; 
   background-position: center;
   background-size: cover ;
